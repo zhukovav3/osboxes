@@ -1,0 +1,11 @@
+#!/bin/bash
+#TSTS
+echo "twtw"
+read VALUE
+if [ $VALUE = "YES" ]
+then 
+echo "yes"
+else
+echo "no"
+echo "milo" | mail -s "inf" root
+fi

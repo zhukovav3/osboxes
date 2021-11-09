@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ -e /home/osboxes ];
+then 
+echo "found"
+else 
+echo "no"
+fi

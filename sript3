@@ -1,0 +1,4 @@
+#!/bin/bash
+x=$(date)
+y=`uptime -p`
+echo "today is $x and $y"
